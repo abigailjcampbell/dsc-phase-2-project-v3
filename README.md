@@ -28,10 +28,10 @@ The data sets used in the investigation were the IMDB SQL database, as well as t
 
 Once combined, there were 2,253 entries in the combined movie information and budget data set, and 3,012 entires in the combined director information and budget data set. 
 
-Screenshot 2023-09-04 at 11.48.11 AM
+![Alt text](images/Screenshot 2023-09-04 at 11.48.11 AM)
 The number of movies relased per year in the combined movie information and budget data set.
 
-Screenshot 2023-09-04 at 11.49.03 AM
+![Alt text](images/Screenshot 2023-09-04 at 11.49.03 AM)
 The number of movies released per genre in the combined movie information and budget data set. 
 
 ### Analysis
@@ -50,27 +50,27 @@ Data Cleaning:Directors
 
 Data Analysis: 
 
-    - Determine which month is the best time to release a new movie
+   - Determine which month is the best time to release a new movie
     
-    Most popular month to release: December
-    Screenshot 2023-09-04 at 11.58.50 AM
-    
-    Highest grossing months: March, June, November, December
-    Screenshot 2023-09-04 at 11.58.50 AM
-    
-    - which genres produce ROI's greater than 1?
-    Screenshot 2023-09-04 at 12.01.33 PM
-    
-    - Which Genres are increasing in populatirty?
-    Screenshot 2023-09-04 at 12.01.07 PM
-    
-    - Which affordable, experienced directors have the highest ratings and ROI?
-    
-    Director Ratings
-    Screenshot 2023-09-04 at 12.05.36 PM
-    
-    Director ROI
-    Screenshot 2023-09-04 at 12.05.48 PM
+        Most popular month to release: December
+        ![Alt text](images/Screenshot 2023-09-04 at 11.58.50 AM)
+
+        Highest grossing months: March, June, November, December
+        ![Alt text](images/Screenshot 2023-09-04 at 11.58.44 AM)
+
+        - which genres produce ROI's greater than 1?
+        ![Alt text](images/Screenshot 2023-09-04 at 12.01.33 PM)
+
+        - Which Genres are increasing in populatirty?
+        ![Alt text](images/Screenshot 2023-09-04 at 12.01.07 PM)
+
+        - Which affordable, experienced directors have the highest ratings and ROI?
+
+        Director Ratings
+        ![Alt text](images/Screenshot 2023-09-04 at 12.05.36 PM)
+
+        Director ROI
+        ![Alt text](images/Screenshot 2023-09-04 at 12.05.48 PM)
     
 
 
