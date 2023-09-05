@@ -7,11 +7,11 @@ In this project, we used exploratory data analysis to investigate trends in film
 
 ### Business Problem
 
-This company has decided to create a new movie studio, but they don’t know anything about creating movies. Before investing in a large movie project, they need to know which types of movies are doing well, which directors perform well within a reasonable budget, and whihc time of year is best to release. The results of this project are summarized in a preentation suitable to be presented to a non-techinical audience and translated to make clear business recommendations.
+This company has decided to create a new movie studio, but they don’t know much about creating movies. Before investing in a large movie project, they need to know which types of movies are doing well, which directors perform well within a reasonable budget, and which time of year is best to release. The results of this project are summarized in a presentation suitable to be presented to a non-techinical audience and translated to make clear business recommendations.
 
 ### The Data
 
-In the folder `zippedData` are movie datasets from:
+In the folder `zippedData` are movie datasets from:s
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
 * [IMDB](https://www.imdb.com/)
@@ -29,10 +29,10 @@ The data sets used in the investigation were the IMDB SQL database, as well as t
 Once combined, there were 2,253 entries in the combined movie information and budget data set, and 3,012 entires in the combined director information and budget data set. 
 
 ![Alt text](images/movies_per_year.png)
-Figure 1: The number of movies relased per year in the combined movie information and budget data set.
+Figure 1: The number of movies relased per year in the combined movie information and budget data set, with the most ammount of data in years 2009-2016
 
 ![Alt text](images/movies_per_genre.png)
-Figure 2: The number of movies released per genre in the combined movie information and budget data set. 
+Figure 2: The number of movies released per genre in the combined movie information and budget data set, with the most popular genres being drama, comedy, action, adventure, and thriller.  
 
 ### Analysis
 
@@ -59,24 +59,29 @@ Data Analysis:
         Figure 4: Highest grossing months: March, June, November, December
 
         ![Alt text](images/genre_roi.png)
-        Figure 5: Genres that produce ROI's greater than 1
+        Figure 5: Genres that produce ROI's greater than 1. 
+            High Risk/High Reward: Animation, Sci-Fi
+            Low Risk/Low Reward: Sport, Biography, Horror
+            Middle Ground: Family, Aciton
 
         ![Alt text](images/genre_popularity.png)
         Figure 6: Genres increasing in popularity
+            Sci-Fi and Action show the most likelyhood to increase in popularity
 
         - Which affordable, experienced directors have the highest ratings and ROI?
 
         ![Alt text](images/director_ratings.png)
-        Figure 7: Director Ratings
+        Figure 7: Director Ratings vs their budget
 
         ![Alt text](images/director_roi.png)
-        Figure 8: Director ROI
+        Figure 8: Director ROI. 
+            Most Promissing: Damien Chazelle, Ryan Coogler, Christopher Miller & Phil Lord,  James Wan
     
 
 
 ### Recommendations
 
-The analysis conlusions are outlined in a non-technical presentation found in this repository under 'Project2_presentation.pptx'
+The analysis conlusions are outlined in a non-technical presentation found in this repository under 'Project2_presentation.pdf'
 
 Best months to release: 
     - March 
@@ -91,3 +96,17 @@ Which directors should we consider?
     - Ryan Coogler
     - Christopher Miller & Phil Lord
     - James Wan
+
+
+### Repository Structure
+images Folder: images used in this ReadMe
+data Folder: contains the  cleaned and combined data sets
+zippedData: contains the original data sets
+data_analysis.ipynb: the jupyter notebook containing the primary analyses
+movie_data_erd.jpeg: image showing the structure of the IMDB SQL database
+
+
+### Contact Information
+
+Abigail Campbell
+abbycampbell0@gmail.com
