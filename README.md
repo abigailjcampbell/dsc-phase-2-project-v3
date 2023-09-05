@@ -101,6 +101,7 @@ Which directors should we consider?
 ### Repository Structure
 images Folder: images used in this ReadMe
 data Folder: contains the  cleaned and combined data sets
+pdfs Folder: contains the pdfs turned in as part of this project, including the presentation
 zippedData: contains the original data sets
 data_analysis.ipynb: the jupyter notebook containing the primary analyses
 movie_data_erd.jpeg: image showing the structure of the IMDB SQL database
